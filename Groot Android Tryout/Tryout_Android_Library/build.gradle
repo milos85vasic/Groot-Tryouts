@@ -54,3 +54,7 @@ groot.deployment.ftp.host = ftpServer
 groot.deployment.ftp.username = ftpUsername
 groot.deployment.ftp.password = ftpPassword
 groot.deployment.setup(fullPackage, fullVersion)
+
+dependencies {
+    compile files("libs/gson-2.8.1-SNAPSHOT.jar")
+}
