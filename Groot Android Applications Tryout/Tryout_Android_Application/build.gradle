@@ -22,6 +22,8 @@ apply plugin: "groot-credentials"
 groot.registerRepository("http://repo.milosvasic.net/releases")
 groot.registerRepository("http://repo.milosvasic.net/development")
 
+groot.depend("net.milosvasic.logger", "Logger", "1.2.1_DEV_+")
+groot.depend("net.milosvasic.factory", "ProjectFactory", "1.0.0_Alpha_1_DEV_+")
 groot.depend("net.milosvasic.tryout.groot.android", "Tryout_Android_Library", "1.0.0_Alpha_1_DEV_+")
 
 final alpha = 0
@@ -32,10 +34,10 @@ final tertiaryVersion = 0
 final projectPackage = "android"
 final projectGroup = "net.milosvasic.tryout.groot"
 
-groot.android.project.setupBuildVariant("qa", true)
-groot.android.project.setupBuildVariant("staging")
-groot.android.project.setupFlavor("brick") // Some random names ...
-groot.android.project.setupFlavor("wall")
+groot.android.project.setupFlavor("checking") // Some random flavors
+groot.android.project.setupFlavor("releasing")
+groot.android.project.setupFlavor("evil")
+groot.android.project.setupFlavor("payments")
 groot.android.project.setup(
         alpha,
         beta,

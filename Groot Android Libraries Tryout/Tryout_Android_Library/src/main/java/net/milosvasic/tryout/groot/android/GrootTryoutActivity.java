@@ -1,13 +1,12 @@
 package net.milosvasic.tryout.groot.android;
 
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 
 import com.google.gson.Gson;
 
-public class GrootTryoutActivity extends Activity {
+public class GrootTryoutActivity extends GrootTryoutCommonActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
