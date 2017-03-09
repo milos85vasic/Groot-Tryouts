@@ -33,6 +33,8 @@ final tertiaryVersion = 0
 final projectPackage = "android"
 final projectGroup = "net.milosvasic.tryout.groot"
 
+groot.android.project.setupBuildVariant("qa", true)
+groot.android.project.setupBuildVariant("staging")
 groot.android.project.setupFlavor("checking") // Some random flavors
 groot.android.project.setupFlavor("releasing")
 groot.android.project.setupFlavor("evil")
