@@ -1,7 +1,9 @@
 package net.milosvasic.tryout.groot.android.library.no_flavors;
 
 
-abstract class NoFlavorsTryoutClass {
+import net.milosvasic.tryout.groot.android.library.NoFlavorsBaseClass;
+
+public class NoFlavorsTryoutClass extends NoFlavorsBaseClass {
 
     private String value;
 

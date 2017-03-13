@@ -1,1 +1,1 @@
-include ":Tryout_Android_Application"
+include ":Tryout_Android_Application", ":Tryout_Android_Application_No_Flavors"
