@@ -25,6 +25,7 @@ groot.registerRepository("http://repo.milosvasic.net/development")
 groot.depend("net.milosvasic.logger", "Logger", "1.2.1_DEV_+")
 groot.depend("net.milosvasic.factory", "ProjectFactory", "1.0.0_Alpha_1_DEV_+")
 groot.depend("net.milosvasic.tryout.groot.android", "Tryout_Android_Library", "releasingStaging_1.0.0_Alpha_1_DEV_+")
+groot.depend("net.milosvasic.tryout.groot.android", "Tryout_Android_Library_No_Flavors", "release_1.0.0_DEV_+")
 
 final alpha = 0
 final beta = 0

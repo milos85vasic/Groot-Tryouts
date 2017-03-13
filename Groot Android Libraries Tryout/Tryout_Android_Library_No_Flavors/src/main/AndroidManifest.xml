@@ -2,7 +2,6 @@
 
     <application
             android:allowBackup="false"
-            android:label="Android Library Tryout - No Flavors"
             android:supportsRtl="true" />
 
 </manifest>
