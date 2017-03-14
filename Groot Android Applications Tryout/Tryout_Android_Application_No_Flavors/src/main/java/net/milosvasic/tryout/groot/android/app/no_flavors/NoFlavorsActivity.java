@@ -13,4 +13,8 @@ public class NoFlavorsActivity extends GrootTryoutCommonActivity {
         baseClass = new NoFlavorsTryoutClass("xxx");
     }
 
+    public NoFlavorsBaseClass getBaseClass() {
+        return baseClass;
+    }
+
 }

@@ -18,9 +18,6 @@ apply plugin: "groot-credentials"
 groot.registerRepository("http://repo.milosvasic.net/releases")
 groot.registerRepository("http://repo.milosvasic.net/development")
 
-groot.depend("net.milosvasic.logger", "Logger", "1.2.0")
-groot.depend("net.milosvasic.factory", "ProjectFactory", "1.0.0_Alpha_1_DEV_+")
-
 // groot.scala.version = "2.11.1"
 // groot.scala.testVersion = "3.0.1"
 
