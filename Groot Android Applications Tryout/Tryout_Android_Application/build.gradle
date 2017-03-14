@@ -40,10 +40,9 @@ groot.android.project.setupFlavor("releasing")
 groot.android.project.setupFlavor("evil")
 groot.android.project.setupFlavor("payments")
 
-groot.android.project.setupSigning(
-        "releasing",
-        file("../Signing/Signing.jks"),
+groot.android.project.sign(
         [
+                jksFile      : "Signing/Signing.jks",
                 storePassword: "Test123",
                 keyAlias     : "testKey",
                 keyPassword  : "Test123"
