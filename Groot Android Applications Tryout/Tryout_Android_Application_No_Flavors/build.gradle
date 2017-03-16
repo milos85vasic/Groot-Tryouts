@@ -41,7 +41,8 @@ groot.android.project.setup(
         secondaryVersion,
         tertiaryVersion,
         projectGroup,
-        projectPackage
+        projectPackage,
+        false // We will disable proguard!
 )
 
 String fullPackage = groot.android.project.projectPackage
