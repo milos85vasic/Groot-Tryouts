@@ -30,14 +30,6 @@ final tertiaryVersion = 0
 final projectPackage = "android"
 final projectGroup = "net.milosvasic.tryout.groot"
 
-groot.android.project.setupBuildVariant("qa")
-groot.android.project.setupBuildVariant("staging")
-
-groot.android.project.setupFlavor("checking") // Some random flavors
-groot.android.project.setupFlavor("releasing")
-groot.android.project.setupFlavor("evil")
-groot.android.project.setupFlavor("payments")
-
 groot.android.project.setup(
         alpha,
         beta,
@@ -48,6 +40,14 @@ groot.android.project.setup(
         projectPackage,
         false // We will disable proguard!
 )
+
+groot.android.project.setupFlavor("checking") // Some random flavors
+groot.android.project.setupFlavor("releasing")
+groot.android.project.setupFlavor("evil")
+groot.android.project.setupFlavor("payments")
+
+groot.android.project.setupBuildVariant("qa")
+groot.android.project.setupBuildVariant("staging")
 
 String fullPackage = groot.android.project.projectPackage
 String fullVersion = groot.android.project.projectVersion
