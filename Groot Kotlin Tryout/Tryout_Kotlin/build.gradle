@@ -12,7 +12,7 @@ buildscript {
         // classpath group: 'net.milosvasic.groot', name: 'Groot', version: '1.0.0-Alpha-5'
 
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.0"
-        classpath "org.jetbrains.kotlin:kotlin-reflect:1.1.0"
+        classpath "org.jetbrains.kotlin:kotlin-reflect:1.1.1"
     }
 }
 
@@ -23,10 +23,7 @@ apply plugin: "groot-credentials"
 groot.registerRepository("http://repo.milosvasic.net/releases")
 groot.registerRepository("http://repo.milosvasic.net/development")
 
-groot.depend("net.milosvasic.logger", "Logger", "1.2.0")
-groot.depend("net.milosvasic.factory", "ProjectFactory", "1.0.0_Alpha_1_DEV_+")
-
-// groot.kotlin.version = "1.1.0"
+groot.kotlin.version = "1.1.1"
 
 final alpha = 1
 final beta = 0
