@@ -1,1 +1,1 @@
-include ":Tryout_Android_Library", ":Tryout_Android_Library_No_Flavors"
+include ":Tryout_Android_Library", ":Tryout_Android_Library_No_Flavors", ":Tryout_Android_Library_Dependant"
