@@ -35,6 +35,17 @@ final tertiaryVersion = 0
 final projectPackage = "android"
 final projectGroup = "net.milosvasic.tryout.groot"
 
+groot.android.project.setup(
+        alpha,
+        beta,
+        version,
+        secondaryVersion,
+        tertiaryVersion,
+        projectGroup,
+        projectPackage,
+        false // We will disable proguard!
+)
+
 groot.android.project.setupFlavor("checking") // Some random flavors
 groot.android.project.setupFlavor("releasing")
 groot.android.project.setupFlavor("evil")
@@ -47,17 +58,6 @@ groot.android.project.sign(
                 keyAlias     : "testKey",
                 keyPassword  : "Test123"
         ]
-)
-
-groot.android.project.setup(
-        alpha,
-        beta,
-        version,
-        secondaryVersion,
-        tertiaryVersion,
-        projectGroup,
-        projectPackage,
-        false // We will disable proguard!
 )
 
 String fullPackage = groot.android.project.projectPackage
