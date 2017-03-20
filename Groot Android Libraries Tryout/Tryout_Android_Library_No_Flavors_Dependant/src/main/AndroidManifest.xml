@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="net.milosvasic.tryout.groot.android.library.no_flavors.dependant">
+
+    <application
+            android:allowBackup="false"
+            android:supportsRtl="true" />
+
+</manifest>
