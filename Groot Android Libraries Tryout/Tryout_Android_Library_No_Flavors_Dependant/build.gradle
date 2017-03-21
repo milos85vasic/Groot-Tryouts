@@ -1,15 +1,15 @@
 buildscript {
     repositories {
         maven {
-            url uri(new File("${System.getProperty("user.home")}${File.separator}Groot${File.separator}Repository").absolutePath)
-            // url uri("http://repo.milosvasic.net/releases")
+            // url uri(new File("${System.getProperty("user.home")}${File.separator}Groot${File.separator}Repository").absolutePath)
+            url uri("http://repo.milosvasic.net/releases")
         }
         jcenter()
         mavenCentral()
     }
     dependencies {
-        classpath group: 'net.milosvasic.groot', name: 'Groot', version: '1.0.0-Alpha-5-SNAPSHOT'
-        // classpath group: 'net.milosvasic.groot', name: 'Groot', version: '1.0.0-Alpha-5'
+        // classpath group: 'net.milosvasic.groot', name: 'Groot', version: '1.0.0-Alpha-5-SNAPSHOT'
+        classpath group: 'net.milosvasic.groot', name: 'Groot', version: '1.0.0-Beta-1'
 
         classpath "com.android.tools.build:gradle:2.3.0"
     }
