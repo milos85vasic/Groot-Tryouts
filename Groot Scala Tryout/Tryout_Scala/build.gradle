@@ -6,7 +6,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath group: 'net.milosvasic.groot', name: 'Groot', version: '1.0.0-Alpha-5-SNAPSHOT'
+        classpath group: 'net.milosvasic.groot', name: 'Groot', version: '1.0.0-Beta-3-SNAPSHOT'
         // classpath group: 'net.milosvasic.groot', name: 'Groot', version: '1.0.0-Alpha-5'
     }
 }
